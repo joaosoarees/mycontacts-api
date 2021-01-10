@@ -6,7 +6,13 @@
   "repository": "https://github.com/joaosoarees/jstack-mycontacts-api.git",
   "author": "João Vitor",
   "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
