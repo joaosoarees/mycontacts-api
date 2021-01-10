@@ -9,7 +9,7 @@ class ContactController {
   }
 
   async show(request, response) {
-    const { id } = request.query;
+    const { id } = request.params;
 
     const contact = await ContactsRepository.findById(id);
 
